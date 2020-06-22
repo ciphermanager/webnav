@@ -29,5 +29,5 @@ var menus = {
 // ]
 var datas = [
     { "name": "百度", "url": "http://www.baidu.com", "desc": "搜索引擎", "parentid": "ss" },
-{"name":"畅想之星光盘数据库","url":"http://cxstar.ntlib.org.cn/bookcd/index/index.do","desc":"速度尚可，免ip认证","parent":"shujuku"}
+{"name":"畅想之星光盘数据库","url":"http://cxstar.ntlib.org.cn/bookcd/index/index.do","desc":"速度尚可，免ip认证","parentid":"shujuku"}
 ]
