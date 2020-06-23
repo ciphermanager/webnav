@@ -1,0 +1,46 @@
+#navmenu {
+    /* 侧方菜单浮动 */
+    position: fixed;
+    left: 0;
+}
+#navmenu>a {
+    /* 导航菜单a标签块级显示 */
+    display: block;
+}
+article {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    text-align: center;
+}
+article a {
+    padding: 5px;
+}
+body {
+    background-color: antiquewhite;
+
+}
+#navdata div {
+    /* div间距 */
+    padding: 5px;
+}
+#words {
+    width: 40%;
+    height: 25px;
+}
+#button {
+    display: inline-block;
+    margin: 0px 0px 5px 5px;
+    padding: 6px 8px;
+    font-size: 14px;
+    outline: none;
+    text-align: center;
+    width: 50px;
+    line-height: 30px;
+    cursor: pointer;
+}
+#button:hover {
+    /* 按钮化 */
+    color: white;
+    background-color: hsla(93, 36%, 34%, 0.938);
+}
