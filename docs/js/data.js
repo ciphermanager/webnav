@@ -31,9 +31,9 @@ var datas = [
     { "name": "cctv13直播", "url": "https://tv.cctv.com/live/cctv13", "desc": "央视新闻直播", "parentid": "common" },
     { "name": "智慧校园", "url": "http://ehall.cqust.edu.cn/", "desc": "重庆科技学院用户常用", "parentid": "common" },
     
-    { "name": "奥兰", "url": "http://xgbd.cqust.edu.cn:866/", "desc": "重庆科技学院用户常用", "parentid": "common" },
-    { "name": "教务系统", "url": "http://jwnew.cqust.edu.cn/eams/home!index.action", "desc": "重庆科技学院用户常用", "parentid": "common" },
-    { "name": "数字资源", "url": "http://wxlib.cqust.edu.cn:8000/", "desc": "重庆科技学院用户常用", "parentid": "common" },
+    { "name": "奥兰", "url": "http://xgbd.cqust.edu.cn:866/login.aspx", "desc": "重庆科技学院用户常用", "parentid": "common" },
+    { "name": "教务系统", "url": "http://jwnew.cqust.edu.cn/eams/unifiedLogin.action", "desc": "重庆科技学院用户常用", "parentid": "common" },
+    { "name": "数字资源", "url": "http://wxlib.cqust.edu.cn:8000/login1.fds", "desc": "重庆科技学院用户常用", "parentid": "common" },
     { "name": "课程中心", "url": "http://cqust.fysso.chaoxing.com/sso/cqust", "desc": "重庆科技学院用户常用", "parentid": "common" },
 
     { "name": "百度", "url": "https://www.baidu.com", "desc": "搜索引擎", "parentid": "se" },
