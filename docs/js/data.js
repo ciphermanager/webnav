@@ -50,7 +50,7 @@ var datas = [
     { "name": "老殁日图", "url": "https://www.mpyit.com/html/ritu/", "desc": "老殁出品，每日图片分享", "parentid": "share" },
     { "name": "老殁加解密", "url": "https://www.laomo.me/cdn/html/gaoji", "desc": "老殁出品，文本加解密", "parentid": "share" },
     { "name": "殁飘遥", "url": "https://www.mpyit.com/", "desc": "老殁出品，sw分享", "parentid": "share" },
-
+    { "name": "果核剥壳", "url": "https://www.ghpym.com/", "desc": "sw分享", "parentid": "share" },
     { "name": "畅想之星", "url": "http://cxstar.ntlib.org.cn/bookcd/index/index.do", "desc": "光盘数据库，速度尚可，免ip认证！", "parentid": "database" },
     
     { "name": "电子发烧友", "url": "http://www.elecfans.com/book/", "desc": "电子类图书在线阅读", "parentid": "learnweb" },
