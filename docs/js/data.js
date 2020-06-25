@@ -42,11 +42,10 @@ var datas = [
     { "name": "360搜索", "url": "https://www.so.com/", "desc": "搜索引擎", "parentid": "se" },
 
     { "name": "微博热搜", "url": "https://s.weibo.com/top/summary?cate=realtimehot", "desc": "微博实时搜索排行", "parentid": "entertain" },
-    { "name": "百度实时热搜", "url": "http://top.baidu.com/buzz?b=1&fr=topindex", "desc": "百度实时搜索排行", "parentid": "entertain" },
-    
+    { "name": "百度实时热搜", "url": "http://top.baidu.com/buzz?b=1&fr=topindex", "desc": "百度实时搜索排行", "parentid": "entertain" },    
     { "name": "知乎热搜", "url": "https://www.zhihu.com/topsearch", "desc": "知乎实时搜索排行", "parentid": "entertain" },
     { "name": "哔哩哔哩", "url": "https://www.bilibili.com/", "desc": "b站", "parentid": "entertain" },
-
+    { "name": "小柒影视导航", "url": "https://www.xiaoqiyouwu.ink/", "desc": "公众号：小柒有物，出品", "parentid": "entertain" },
     { "name": "老殁", "url": "http://www.laomo.me/", "desc": "老殁发布页", "parentid": "share" },
     { "name": "老殁日图", "url": "https://www.mpyit.com/html/ritu/", "desc": "老殁出品，每日图片分享", "parentid": "share" },
     { "name": "老殁加解密", "url": "https://www.laomo.me/cdn/html/gaoji", "desc": "老殁出品，文本加解密", "parentid": "share" },
