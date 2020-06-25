@@ -51,13 +51,15 @@ var datas = [
     { "name": "老殁加解密", "url": "https://www.laomo.me/cdn/html/gaoji", "desc": "老殁出品，文本加解密", "parentid": "share" },
     { "name": "殁飘遥", "url": "https://www.mpyit.com/", "desc": "老殁出品，sw分享", "parentid": "share" },
     { "name": "果核剥壳", "url": "https://www.ghpym.com/", "desc": "sw分享", "parentid": "share" },
+    
     { "name": "畅想之星", "url": "http://cxstar.ntlib.org.cn/bookcd/index/index.do", "desc": "光盘数据库，速度尚可，免ip认证！", "parentid": "database" },
+    { "name": "联图云光盘", "url": "http://discx.yuntu.io", "desc": "光盘数据库，免ip认证！", "parentid": "database" },
     
     { "name": "电子发烧友", "url": "http://www.elecfans.com/book/", "desc": "电子类图书在线阅读", "parentid": "learnweb" },
     { "name": "OSGeo中国", "url": "https://www.osgeo.cn/", "desc": "pythob GIS中文文档", "parentid": "learnweb" },
     { "name": "学堂在线", "url": "https://next.xuetangx.com/", "desc": "教学视频与课件", "parentid": "learnweb" },
     { "name": "中国大学mooc", "url": "https://www.icourse163.org", "desc": "教学视频与课件", "parentid": "learnweb" },
-
+{ "name": "浙大课程攻略共享", "url": "https://github.com/QSCTech/zju-icicles", "desc": "github站点", "parentid": "learnweb" },
     { "name": "工程力学", "url": "https://next.xuetangx.com/course/NEU08011001314/", "desc": "东北大学，教学视频与课件", "parentid": "course" },
     { "name": "大学物理上", "url": "https://www.icourse163.org/course/bjut-1205903801", "desc": "北工大，教学视频与课件", "parentid": "course" },
     { "name": "大学物理下", "url": "https://www.icourse163.org/course/bjut-1206559814", "desc": "北工大，教学视频与课件", "parentid": "course" },
