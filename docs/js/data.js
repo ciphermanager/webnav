@@ -71,6 +71,7 @@ var datas = [
     { "name": "水滴英语", "url": "https://www.adreep.cn/", "desc": "英语作文素材", "parentid": "learnweb" },
     
     { "name": "微软爱写作", "url": "https://aimwriting.mtutor.engkoo.com/", "desc": "英语写作打分语法提示工具，未测试", "parentid": "learnweb" },
+    { "name": "traceparts", "url": "https://www.traceparts.com/zh", "desc": "3D 零件库，在线选型,数百万计 3D 、2D CAD 文件,免费提供,多种格式，需注册", "parentid": "learnweb" },
     { "name": "工程力学", "url": "https://next.xuetangx.com/course/NEU08011001314/", "desc": "东北大学，教学视频与课件", "parentid": "course" },
     { "name": "大学物理上", "url": "https://www.icourse163.org/course/bjut-1205903801", "desc": "北工大，教学视频与课件", "parentid": "course" },
     { "name": "大学物理下", "url": "https://www.icourse163.org/course/bjut-1206559814", "desc": "北工大，教学视频与课件", "parentid": "course" },
