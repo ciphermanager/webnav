@@ -69,8 +69,9 @@ var datas = [
     { "name": "Chinadaily", "url": "http://www.chinadaily.com.cn/", "desc": "中国日报英语版，有app", "parentid": "learnweb" },
     { "name": "Magazinelib", "url": "https://magazinelib.com/", "desc": "外刊浏览，支持pdf下载", "parentid": "learnweb" },
     { "name": "水滴英语", "url": "https://www.adreep.cn/", "desc": "英语作文素材", "parentid": "learnweb" },
-    
-    { "name": "微软爱写作", "url": "https://aimwriting.mtutor.engkoo.com/", "desc": "英语写作打分语法提示工具，未测试", "parentid": "learnweb" },
+     { "name": "书栈网", "url": "https://www.bookstack.cn/", "desc": "计算机类开源书籍分享", "parentid": "learnweb" },
+    { "name": "语雀", "url": "https://www.yuque.com/explore/headlines", "desc": "多人合作文档编辑，可共享，用于知识分享，阿里出品", "parentid": "learnweb" },
+    { "name": "微软爱写作", "url": "https://aimwriting.mtutor.engkoo.com/", "desc": "英语写作打分语法提示工具，微信扫码登陆", "parentid": "learnweb" },
     { "name": "traceparts", "url": "https://www.traceparts.com/zh", "desc": "3D 零件库，在线选型,数百万计 3D 、2D CAD 文件,免费提供,多种格式，需注册", "parentid": "learnweb" },
     { "name": "工程力学", "url": "https://next.xuetangx.com/course/NEU08011001314/", "desc": "东北大学，教学视频与课件", "parentid": "course" },
     { "name": "大学物理上", "url": "https://www.icourse163.org/course/bjut-1205903801", "desc": "北工大，教学视频与课件", "parentid": "course" },
