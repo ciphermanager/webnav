@@ -60,7 +60,7 @@ for (var item = 0; item < datas.length; item++) {
         }
         aTag.addEventListener("click", function () { wrap(".menus") }, false);
         aTag.href = "javascript:void(0)";
-        aTag.target = "_blank";
+
         pTag.appendChild(aTag);
         mdivTag.appendChild(pTag);
 
@@ -73,6 +73,7 @@ for (var item = 0; item < datas.length; item++) {
     var urlTag = document.createElement("a");
     // 装简介
     var descTag = document.createElement("div");
+    urlTag.target = "_blank";
     urlTag.href = datas[item]["url"];
     urlTag.innerText = datas[item]["name"];
     descTag.innerText = datas[item]["desc"];
