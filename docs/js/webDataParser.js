@@ -32,7 +32,6 @@ for (var menu in menus) {
         subaTag.href = "#" + id;
         liTag.appendChild(subaTag);
         ulTag.appendChild(liTag);
-        console.log(menu, submenu);
     }
 
     divTag.appendChild(ulTag);
