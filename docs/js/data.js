@@ -16,9 +16,6 @@ var menus = {
         "news": "资讯",
         "school": "学校常用",
         "live": "直播",
-        "common": "常用",
-
-
         "entertain": "娱乐",
         "share": "分享",
     },
