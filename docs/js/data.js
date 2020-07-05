@@ -2,7 +2,7 @@
 //     菜单集合
 //     "menu1": {
 //         子菜单
-//         "submenu": "id"
+//         "id":"submenu"
 //         菜单名称与id对应
 //     },
 // }
@@ -13,16 +13,16 @@
 
 var menus = {
     "生活": {
-        "常用": "common",
-        "搜索引擎": "se",
-        "娱乐":"entertain",
-        "分享":"share"
+        "common": "常用",
+        "se": "搜索引擎",
+        "entertain": "娱乐",
+        "share": "分享",
     },
     "学习": {
-        "数据库": "database",
-        "学习网站": "learnweb",
-        "课程推荐": "course",
-        "考试": "exam"
+        "database": "数据库",
+        "learnweb": "学习网站",
+        "course": "课程推荐",
+        "exam": "考试",
     },
 }
 var datas = [

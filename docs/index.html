@@ -6,42 +6,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>小众导航</title>
     <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?3cccf7227d9405886fa73c8a3f743a13";
-  hm.async="async";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?3cccf7227d9405886fa73c8a3f743a13";
+            hm.async = "async";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <article>
+    <div class="menus left">
+    </div>
+    <div class="content right">
         <div id="search">
             <input type="text" id="words">
+            <select id="engine">
+                <option selected="selected" value="https://www.baidu.com/s?wd=">百度</option>
+                <option value="https://cn.bing.com/search?q=">必应</option>
+                <option value="https://www.so.com/s?q=">360搜索</option>
+                <option value="https://www.sogou.com/web?query=">搜狗</option>
+                <!-- <option value="">谷歌</option> -->
+            </select>
             <a id="button" target="_black"
-                onclick="this.href='http://www.baidu.com/s?wd='+document.getElementById('words').value">搜索</a>
+                onclick="this.href=document.getElementById('engine').value+document.getElementById('words').value">搜索</a>
         </div>
-        <div id="navdata">
-        </div>
-    </article>
-    <aside id="navmenu"></aside>
+    </div>
+    <a class="tips" ,href="https://github.com/ciphermanager/webnav/issues">贡献网址</a>
 </body>
+<script src="js/data.js"></script>
+<script src="js/webDataParser.js"></script>
 <script>
+    function positionTo(selector, size, milliseconds, method, i) {
+        //通过选择器动态改变指定元素的尺寸位置等。
+        // selector:选择器，选取要移动的元素
+        // ,size要移动的位移量，增量
+        // ,milliseconds 每次增量间隔的时间
+        // method：style下的属性上下移动，左右移动
+        //i每次的变化量
+        var style = document.querySelector(selector).style;
+        var timer = 0, beginSize = Number(style[method].slice(0, -2));
+        var moveInterval = setInterval(
+            function () {
+                if (size < 0) {
+                    timer = timer - i;
+                }
+                else {
+                    timer = timer + i;
+                }
+                style[method] = timer + beginSize + "px";
+                if ((timer >= size && size >= 0) || (timer <= size && size < 0)) {
+                    clearInterval(moveInterval);
+                }
+            },
+            milliseconds
+        );
+    }
+
+
+    function switchs(ele) {
+        // 点击下拉菜单
+        console.log(ele.nextElementSibling.style.display);
+        if (ele.nextElementSibling.style.display == "none") {
+            ele.nextElementSibling.style.display = "";
+        } else {
+            ele.nextElementSibling.style.display = "none";
+        }
+    }
+
+    function wrap(classname) {
+        // 面包板折叠展开
+        var method = "left", size = 200, milliseconds = 10, i = 10, selector = classname;
+        console.log(document.querySelector(selector).style[method]);
+        if (Number(document.querySelector(selector).style[method].slice(0, -2)) == 0) {
+            document.querySelector(selector).style[method] = "10px";
+        }
+
+        if (Number(document.querySelector(selector).style[method].slice(0, -2)) < 10) {
+
+            positionTo(selector, size, milliseconds, method, i);
+        } else {
+
+            positionTo(selector, -size, milliseconds, method, i);
+        }
+    }
     var textele = document.getElementById("words");
-    // 回车键绑定
+    // 搜索框回车键绑定
     textele.onkeypress = function (event) {
         if (event.which === 13) {
             document.getElementById("button").click();
         }
     }
+
+    // 窗口适配
+    var eles = document.querySelectorAll(".ddiv");
+    if (document.body.offsetWidth <= "800") {
+        for (var i = 0; i < eles.length; i++) {
+            eles[i].style.width = "100%";
+            wrap(".menus");
+        }
+    }
+    window.onresize = function () {
+
+        if (document.body.offsetWidth <= "800") {
+            for (var i = 0; i < eles.length; i++) {
+                eles[i].style.width = "100%";
+            }
+        } else {
+            for (var i = 0; i < eles.length; i++) {
+                eles[i].style.width = "300px";
+            }
+        }
+
+    }
 </script>
-<script src="js/data.js"></script>
-<script src="js/webDataParser.js"></script>
+
 
 </html>
