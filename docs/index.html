@@ -105,13 +105,12 @@
 
     // 窗口适配
     var eles = document.querySelectorAll(".ddiv");
-    if (document.body.offsetWidth <= "400") {
+    if (document.body.offsetWidth <= 800) {
         // 小窗口
         for (var i = 0; i < eles.length; i++) {
-            eles[i].style.width = "98%";
-            eles[i].style.marginLeft="1%";
-            eles[i].style.marginRight="1%";
-
+            eles[i].style.width = "100%";
+            eles[i].style.marginLeft="0px";
+            eles[i].style.marginRight="0px";
         }
         document.body.removeChild(document.querySelector(".menus"));
         document.querySelector(".right").style.left = "0px";
@@ -119,7 +118,7 @@
     }
     window.onresize = function () {
         // 窗口缩放事件
-        if (document.body.offsetWidth <= "400") {
+        if (document.body.offsetWidth <= 800) {
             for (var i = 0; i < eles.length; i++) {
                 eles[i].style.width = "100%";
             }
@@ -128,7 +127,6 @@
                 eles[i].style.width = "300px";
             }
         }
-
     }
 </script>
 
