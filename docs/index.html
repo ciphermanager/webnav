@@ -106,13 +106,17 @@
     // 窗口适配
     var eles = document.querySelectorAll(".ddiv");
     if (document.body.offsetWidth <= "800") {
+        // 小窗口
         for (var i = 0; i < eles.length; i++) {
             eles[i].style.width = "100%";
-            wrap(".menus");
+
         }
+        document.body.removeChild(document.querySelector(".menus"));
+        document.querySelector(".right").style.left = "0px";
+        document.querySelector(".right").style.margin = "0px";
     }
     window.onresize = function () {
-
+        // 窗口缩放事件
         if (document.body.offsetWidth <= "800") {
             for (var i = 0; i < eles.length; i++) {
                 eles[i].style.width = "100%";

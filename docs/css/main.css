@@ -1,5 +1,6 @@
 body {
     background-color: #c7dad1;
+    margin: 0;
 }
 
 .ddiv {
@@ -16,7 +17,7 @@ body {
 .ddiv:hover {
     /* 导航块伪类 */
     background: rgb(131, 175, 155);
-    transform: translateY(-5px);
+    /* transform: translateY(-5px); */
 
 
 }
@@ -35,6 +36,7 @@ a {
 
     left: 10px;
     display: inline-block;
+/* width: 8%; */
 }
 
 .menus a {
@@ -62,18 +64,26 @@ a {
 
 .right {
     position: absolute;
-    left: 10%;
-    margin-left: 1%;
+    /* left: 10%; */
+    margin-left: 25%;
+
+    text-align:center;
+    max-width: 1260px;
 }
 
 li {
     list-style: none;
     list-style-type: none;
+    background-color: rgba(240, 92, 92, 0.226);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* border: 5px ; */
+    border-radius: 5px;
 
 }
 
 .menus div>a {
-
+/* 一级菜单 */
     border: 5px solid #b4323228;
 
     border-radius: 5px;
@@ -83,9 +93,19 @@ li {
 .menus a:hover,
 p:hover,
 #button:hover {
-    transform: translateY(-1px);
+    /* transform: translateY(-1px); */
     background-color: rgb(15, 128, 65);
 }
+p a{
+/* 导航模块二级菜单的标题栏 */
+background-color: rgba(100, 228, 117, 0.74);
+padding-left: 5px;
+padding-right: 5px;
+border-radius: 5px;
+color: #021a13bb;
+
+}
+
 
 #search {
     padding-top: 2%;
@@ -110,11 +130,24 @@ p:hover,
 }
 
 .tips {
+    /* 侧方提示文字 */
     top: 50px;
     position: fixed;
     right: 5px;
+    writing-mode: vertical-rl;
 }
 .ddiv a div{
-background-color:#107a4528
+    /* 介绍栏样式 */
+background-color:#13be8b28;
+color: rgb(71, 82, 8);
+
+}
+#button{
+    /* 搜索按钮样式 */
+background-color: rgb(16, 12, 245);
+padding: 5px;
+color: rgb(23, 216, 216);
+
+border-radius: 5px;
 
 }
