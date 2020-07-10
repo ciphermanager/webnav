@@ -88,10 +88,11 @@ var datas = [
     { "name": "PPT超级市场", "url": "http://ppt.sotary.com/web/wxapp/index.html", "desc": "免费ppt模板", "parentid": "tools" },
     { "name": "极简简历", "url": "https://www.polebrief.com/index", "desc": "在线简历制作工具", "parentid": "tools" },
 
-    { "name": "工程力学", "url": "https://next.xuetangx.com/course/NEU08011001314/", "desc": "学堂在线,东北大学", "parentid": "course" },
-    { "name": "大学物理上", "url": "https://www.icourse163.org/course/bjut-1205903801", "desc": "中国大学MOOC,北工大", "parentid": "course" },
-    { "name": "大学物理下", "url": "https://www.icourse163.org/course/bjut-1206559814", "desc": "中国大学MOOC,北工大", "parentid": "course" },
-    { "name": "液压传动", "url": "https://www.icourse163.org/course/HIT-1205915802?tid=1206206204", "desc": "中国大学MOOC,哈工大", "parentid": "course" },
+    { "name": "工程力学", "url": "https://next.xuetangx.com/course/NEU08011001314", "desc": "学堂在线,东北大学,李英梅", "parentid": "course" },
+    { "name": "大学物理上", "url": "https://www.icourse163.org/course/bjut-1205903801", "desc": "中国大学MOOC,北工大,杨红卫", "parentid": "course" },
+    { "name": "大学物理下", "url": "https://www.icourse163.org/course/bjut-1206559814", "desc": "中国大学MOOC,北工大,杨红卫", "parentid": "course" },
+    { "name": "液压传动", "url": "https://www.icourse163.org/course/HIT-1205915802", "desc": "中国大学MOOC,哈工大,姜继海", "parentid": "course" },
+    { "name": "数据结构", "url": "https://www.icourse163.org/course/ZJU-93001", "desc": "中国大学MOOC,浙大,陈越", "parentid": "course" },
 
     { "name": "维普考试", "url": "http://vers.cqvip.com/", "desc": "试卷题库，需ip认证", "parentid": "exam" },
     { "name": "维普考研", "url": "http://kaoyan.cqvip.com/", "desc": "试卷题库，需ip认证", "parentid": "exam" },
