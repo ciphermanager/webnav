@@ -21,12 +21,16 @@ var menus = {
         "tools": "实用工具",
     },
     "学习": {
-        "ebook":"电子书",
-        "database": "数据库",
+        "ebook": "电子书",
+        "CDDB": "光盘数据库",
         "learnweb": "学习网站",
         "course": "课程推荐",
         "exam": "考试",
     },
+    "综合": {
+        "ys168": "永硕E盘",
+        "onav": "导航",
+    }
 }
 var datas = [
 
@@ -38,46 +42,42 @@ var datas = [
     { "name": "cctv记录直播", "url": "https://tv.cctv.com/live/cctvjilu", "desc": "央视纪录频道", "parentid": "live" },
 
     { "name": "智慧校园", "url": "http://ehall.cqust.edu.cn/", "desc": "重庆科技学院用户常用", "parentid": "school" },
-    { "name": "奥兰", "url": "http://xgbd.cqust.edu.cn:866/login.aspx", "desc": "重庆科技学院用户常用", "parentid": "school" },
-    { "name": "教务系统", "url": "http://jwnew.cqust.edu.cn/eams/unifiedLogin.action", "desc": "重庆科技学院用户常用", "parentid": "school" },
-    { "name": "数字资源", "url": "http://wxlib.cqust.edu.cn:8000/login1.fds", "desc": "重庆科技学院用户常用", "parentid": "school" },
-    { "name": "课程中心", "url": "http://cqust.fysso.chaoxing.com/sso/cqust", "desc": "重庆科技学院用户常用", "parentid": "school" },
+    { "name": "重庆科技学院", "url": "http://www.cqust.edu.cn/", "desc": "重庆科技学院官网", "parentid": "school" },
 
     { "name": "微博热搜", "url": "https://s.weibo.com/top/summary?cate=realtimehot", "desc": "微博实时搜索排行", "parentid": "entertain" },
     { "name": "知乎热搜", "url": "https://www.zhihu.com/topsearch", "desc": "知乎实时搜索排行", "parentid": "entertain" },
     { "name": "哔哩哔哩", "url": "https://www.bilibili.com/", "desc": "b站", "parentid": "entertain" },
-    { "name": "小柒影视导航", "url": "https://www.xiaoqiyouwu.ink/", "desc": "公众号：小柒有物，出品", "parentid": "entertain" },
+
     { "name": "老殁日图", "url": "https://www.mpyit.com/html/ritu/", "desc": "老殁出品", "parentid": "entertain" },
 
     { "name": "老殁", "url": "http://www.laomo.me/", "desc": "老殁发布页", "parentid": "share" },
-
-
 
     { "name": "殁飘遥", "url": "https://www.mpyit.com/", "desc": "老殁出品，sw分享", "parentid": "share" },
     { "name": "果核剥壳", "url": "https://www.ghpym.com/", "desc": "sw分享", "parentid": "share" },
 
     { "name": "时宜搜书", "url": "https://www.shiyisoushu.com/", "desc": "电子书搜索", "parentid": "ebook" },
+    { "name": "熊猫搜书", "url": "https://ebook.huzerui.com", "desc": "电子书聚合搜索", "parentid": "ebook" },
     { "name": "鸠摩搜索", "url": "https://www.jiumodiary.com/", "desc": "电子书搜索", "parentid": "ebook" },
+    { "name": "LoreFree", "url": "https://ebook2.lorefree.com/", "desc": "去中心化免费电子书分享社区", "parentid": "ebook" },
+    { "name": "书享家", "url": "http://shuxiangjia.cn/", "desc": "电子书导航站", "parentid": "ebook" },
+
+    { "name": "ctFile-chinjua电子书合集", "url": "http://n802.com/dir/7823036-11625293-090948", "desc": "已分类", "parentid": "ebook" },
     { "name": "电子发烧友", "url": "http://www.elecfans.com/book/", "desc": "电子类图书在线阅读", "parentid": "ebook" },
     { "name": "OSGeo中国", "url": "https://www.osgeo.cn/", "desc": "python 、GIS中文文档", "parentid": "ebook" },
     { "name": "书栈网", "url": "https://www.bookstack.cn/", "desc": "计算机类开源书籍下载与在线阅读", "parentid": "ebook" },
-    
+
     { "name": "51CTO下载中心", "url": "https://down.51cto.com/", "desc": "计算机类书籍免费下载与共享", "parentid": "ebook" },
-    
+
     { "name": "微盘", "url": "https://vdisk.weibo.com/", "desc": "电子书免费下载与共享，新浪出品", "parentid": "ebook" },
     { "name": "语雀", "url": "https://www.yuque.com/explore/headlines", "desc": "多人写作，可知识分享，阿里出品", "parentid": "ebook" },
     { "name": "浙大课程攻略共享", "url": "https://github.com/QSCTech/zju-icicles", "desc": "github站点", "parentid": "ebook" },
 
-
-
-    { "name": "畅想之星", "url": "http://cxstar.ntlib.org.cn/bookcd/index/index.do", "desc": "光盘数据库，速度尚可，免ip认证！", "parentid": "database" },
-    { "name": "联图云光盘", "url": "http://discx.yuntu.io", "desc": "光盘数据库，免ip认证！", "parentid": "database" },
-
+    { "name": "畅想之星", "url": "http://cxstar.ntlib.org.cn/bookcd/index/index.do", "desc": "光盘数据库，速度尚可，免ip认证！", "parentid": "CDDB" },
+    { "name": "联图云光盘", "url": "http://discx.yuntu.io", "desc": "光盘数据库，免ip认证！", "parentid": "CDDB" },
+    { "name": "博云光盘", "url": "http://sscd.lib.whu.edu.cn/", "desc": "武大光盘数据库，免ip认证！", "parentid": "CDDB" },
 
     { "name": "学堂在线", "url": "https://next.xuetangx.com/", "desc": "教学视频与课件", "parentid": "learnweb" },
     { "name": "中国大学mooc", "url": "https://www.icourse163.org", "desc": "教学视频与课件", "parentid": "learnweb" },
-    
-
 
     { "name": "Magazinelib", "url": "https://magazinelib.com/", "desc": "外刊浏览，支持pdf下载", "parentid": "learnweb" },
     { "name": "水滴英语", "url": "https://www.adreep.cn/", "desc": "英语作文素材", "parentid": "learnweb" },
@@ -96,4 +96,13 @@ var datas = [
 
     { "name": "维普考试", "url": "http://vers.cqvip.com/", "desc": "试卷题库，需ip认证", "parentid": "exam" },
     { "name": "维普考研", "url": "http://kaoyan.cqvip.com/", "desc": "试卷题库，需ip认证", "parentid": "exam" },
+
+    { "name": "2021考研公共课", "url": "http://jwxy.ys168.com", "desc": "网友收集，百度云分享", "parentid": "ys168" },
+    { "name": "安心考研", "url": "http://axky.ys168.com/", "desc": "公共课分享", "parentid": "ys168" },
+    { "name": "油麦同学的藏宝阁", "url": "http://cangbaoge.ys168.com/", "desc": "公众号:考研学府", "parentid": "ys168" },
+    { "name": "阿虚同学的储物间", "url": "http://kyon945.ys168.com/", "desc": "阿虚的收藏", "parentid": "ys168" },
+    { "name": "量子孤岛杂货店", "url": "http://quantumisland.ys168.com/", "desc": "公众号:量子孤岛", "parentid": "ys168" },
+    { "name": "Ashe", "url": "http://hsjp.ys168.com/", "desc": "公众号:胡说金朋", "parentid": "ys168" },
+    { "name": "影视森林", "url": "http://www.549.tv/", "desc": "影视导航", "parentid": "onav" },
+    { "name": "小柒影视导航", "url": "https://www.xiaoqiyouwu.ink/", "desc": "公众号：小柒有物，出品", "parentid": "onav" },
 ]
