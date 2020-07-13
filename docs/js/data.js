@@ -82,6 +82,7 @@ var datas = [
     { "name": "Magazinelib", "url": "https://magazinelib.com/", "desc": "外刊浏览，支持pdf下载", "parentid": "learnweb" },
     { "name": "水滴英语", "url": "https://www.adreep.cn/", "desc": "英语作文素材", "parentid": "learnweb" },
 
+    { "name": "友谊", "url": "http://www.01ue.com/--tutorial-index.html", "desc": "英语语法，IT技术，古籍经典在线阅读", "parentid": "learnweb" },
     { "name": "微软爱写作", "url": "https://aimwriting.mtutor.engkoo.com/", "desc": "英语写作批改工具，微软出品", "parentid": "tools" },
     { "name": "老殁加解密", "url": "https://www.laomo.me/cdn/html/gaoji", "desc": "老殁出品，字符串加解密", "parentid": "tools" },
     { "name": "traceparts", "url": "https://www.traceparts.com/zh", "desc": "零件在线选型,免费,多种格式", "parentid": "tools" },
