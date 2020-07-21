@@ -98,8 +98,8 @@ var datas = [
     { "name": "维普考试", "url": "http://vers.cqvip.com/", "desc": "试卷题库，需ip认证", "parentid": "exam" },
     { "name": "维普考研", "url": "http://kaoyan.cqvip.com/", "desc": "试卷题库，需ip认证", "parentid": "exam" },
 
-    { "name": "2021考研公共课", "url": "http://jwxy.ys168.com", "desc": "网友收集，百度云分享", "parentid": "ys168" },
-    { "name": "安心考研", "url": "http://axky.ys168.com/", "desc": "公共课分享", "parentid": "ys168" },
+    //{ "name": "2021考研公共课", "url": "http://jwxy.ys168.com", "desc": "网友收集，百度云分享", "parentid": "ys168" },
+    { "name": "安心考研", "url": "http://axky.ys168.com/", "desc": "公众号:安心考研", "parentid": "ys168" },
     { "name": "油麦同学的藏宝阁", "url": "http://cangbaoge.ys168.com/", "desc": "公众号:考研学府", "parentid": "ys168" },
     { "name": "阿虚同学的储物间", "url": "http://kyon945.ys168.com/", "desc": "阿虚的收藏", "parentid": "ys168" },
     { "name": "量子孤岛杂货店", "url": "http://quantumisland.ys168.com/", "desc": "公众号:量子孤岛", "parentid": "ys168" },
