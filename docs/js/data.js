@@ -70,7 +70,7 @@ var datas = [
 
     { "name": "微盘", "url": "https://vdisk.weibo.com/", "desc": "电子书免费下载与共享，新浪出品", "parentid": "ebook" },
     { "name": "语雀", "url": "https://www.yuque.com/explore/headlines", "desc": "多人写作，可知识分享，阿里出品", "parentid": "ebook" },
-    { "name": "浙大课程攻略共享", "url": "https://github.com/QSCTech/zju-icicles", "desc": "github站点", "parentid": "ebook" },
+    //{ "name": "浙大课程攻略共享", "url": "https://github.com/QSCTech/zju-icicles", "desc": "github站点", "parentid": "ebook" },
 
     { "name": "畅想之星", "url": "http://cxstar.ntlib.org.cn/bookcd/index/index.do", "desc": "光盘数据库，速度尚可，免ip认证！", "parentid": "CDDB" },
     { "name": "联图云光盘", "url": "http://discx.yuntu.io", "desc": "光盘数据库，免ip认证！", "parentid": "CDDB" },
