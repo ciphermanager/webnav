@@ -76,7 +76,7 @@ var datas = [
 
     { "name": "畅想之星", "url": "http://cxstar.ntlib.org.cn/bookcd/index/index.do", "desc": "光盘数据库，速度尚可，免ip认证！", "parentid": "CDDB" },
     { "name": "联图云光盘", "url": "http://discx.yuntu.io", "desc": "光盘数据库，免ip认证！", "parentid": "CDDB" },
-    { "name": "博云光盘", "url": "http://sscd.lib.whu.edu.cn/", "desc": "武大光盘数据库，免ip认证！", "parentid": "CDDB" },
+    { "name": "博云光盘", "url": "http://210.32.137.198/index1.jsp", "desc": "光盘数据库，免ip认证！", "parentid": "CDDB" },
 
     { "name": "学堂在线", "url": "https://next.xuetangx.com/", "desc": "教学视频与课件", "parentid": "learnweb" },
     { "name": "中国大学mooc", "url": "https://www.icourse163.org", "desc": "教学视频与课件", "parentid": "learnweb" },
