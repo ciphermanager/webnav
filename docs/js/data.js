@@ -71,7 +71,7 @@ var datas = [
     { "name": "微盘", "url": "https://vdisk.weibo.com/", "desc": "电子书免费下载与共享，新浪出品", "parentid": "ebook" },
     { "name": "语雀", "url": "https://www.yuque.com/explore/headlines", "desc": "多人写作，可知识分享，阿里出品", "parentid": "ebook" },
     
-    { "name": "小书匠", "url": "http://markdown.xiaoshujiang.com/", "desc": "在线markdown,支持webdav,github等存储", "parentid": "ebook" },
+    //{ "name": "小书匠", "url": "http://markdown.xiaoshujiang.com/", "desc": "在线markdown,支持webdav,github等存储", "parentid": "ebook" },
     //{ "name": "浙大课程攻略共享", "url": "https://github.com/QSCTech/zju-icicles", "desc": "github站点", "parentid": "ebook" },
 
     { "name": "畅想之星", "url": "http://cxstar.ntlib.org.cn/bookcd/index/index.do", "desc": "光盘数据库，速度尚可，免ip认证！", "parentid": "CDDB" },
@@ -86,6 +86,7 @@ var datas = [
 
     { "name": "友谊", "url": "http://www.01ue.com/--tutorial-index.html", "desc": "英语语法，IT技术，古籍经典在线阅读", "parentid": "learnweb" },
     { "name": "微软爱写作", "url": "https://aimwriting.mtutor.engkoo.com/", "desc": "英语写作批改工具，微软出品", "parentid": "tools" },
+    { "name": "百度脑图", "url": "https://naotu.baidu.com/home", "desc": "web版思维导图工具，免费", "parentid": "tools" },
     { "name": "老殁加解密", "url": "https://www.laomo.me/cdn/html/gaoji", "desc": "老殁出品，字符串加解密", "parentid": "tools" },
     { "name": "traceparts", "url": "https://www.traceparts.com/zh", "desc": "零件在线选型,免费,多种格式", "parentid": "tools" },
     { "name": "PPT超级市场", "url": "http://ppt.sotary.com/web/wxapp/index.html", "desc": "免费ppt模板", "parentid": "tools" },
