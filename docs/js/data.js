@@ -98,6 +98,8 @@ var datas = [
     { "name": "液压传动", "url": "https://www.icourse163.org/course/HIT-1205915802", "desc": "中国大学MOOC,哈工大,姜继海", "parentid": "course" },
     { "name": "数据结构", "url": "https://www.icourse163.org/course/ZJU-93001", "desc": "中国大学MOOC,浙大,陈越", "parentid": "course" },
 
+    
+    { "name": "维普考试", "url": "http://sjk06.e-library.com.cn/UI/index.aspx", "desc": "试卷题库，暂免ip认证", "parentid": "exam" },
     { "name": "维普考试", "url": "http://vers.cqvip.com/", "desc": "试卷题库，需ip认证", "parentid": "exam" },
     { "name": "维普考研", "url": "http://kaoyan.cqvip.com/", "desc": "试卷题库，需ip认证", "parentid": "exam" },
 
