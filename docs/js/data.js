@@ -76,7 +76,7 @@ var datas = [
 
     { "name": "畅想之星", "url": "http://cxstar.ntlib.org.cn/bookcd/index/index.do", "desc": "光盘数据库，速度尚可，免ip认证！", "parentid": "CDDB" },
     { "name": "联图云光盘", "url": "http://discx.yuntu.io", "desc": "光盘数据库，免ip认证！", "parentid": "CDDB" },
-    { "name": "博云光盘", "url": "http://210.32.137.198/index1.jsp", "desc": "光盘数据库，免ip认证！", "parentid": "CDDB" },
+    { "name": "湖南省高校数字图书馆", "url": "http://www.hnadl.cn/", "desc": "光盘、课件、考试数据库，免ip认证！", "parentid": "CDDB" },
 
     { "name": "学堂在线", "url": "https://next.xuetangx.com/", "desc": "教学视频与课件", "parentid": "learnweb" },
     { "name": "中国大学mooc", "url": "https://www.icourse163.org", "desc": "教学视频与课件", "parentid": "learnweb" },
@@ -100,6 +100,8 @@ var datas = [
 
     
     { "name": "维普考试", "url": "http://sjk06.e-library.com.cn/UI/index.aspx", "desc": "试卷题库，暂免ip认证", "parentid": "exam" },
+    { "name": "起点考研网", "url": "https://www.yjsexam.com/", "desc": "需注册，暂免ip认证", "parentid": "exam" },
+
     { "name": "维普考试", "url": "http://vers.cqvip.com/", "desc": "试卷题库，需ip认证", "parentid": "exam" },
     { "name": "维普考研", "url": "http://kaoyan.cqvip.com/", "desc": "试卷题库，需ip认证", "parentid": "exam" },
 
