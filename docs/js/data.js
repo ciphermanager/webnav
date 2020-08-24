@@ -80,7 +80,7 @@ var datas = [
     { "name": "Ashe", "url": "http://hsjp.ys168.com/", "desc": "公众号:胡说金朋", "parentid": "others" },
     { "name": "影视森林", "url": "http://www.549.tv/", "desc": "影视导航", "parentid": "others" },
     { "name": "小柒影视导航", "url": "https://www.xiaoqiyouwu.ink/", "desc": "公众号：小柒有物，出品", "parentid": "others" },
-    { "name": "老殁", "url": "http://www.laomo.me/", "desc": "老殁发布页", "parentid": "others"
+    { "name": "老殁", "url": "http://www.laomo.me/", "desc": "老殁发布页", "parentid": "others"},
     { "name": "殁飘遥", "url": "https://www.mpyit.com/", "desc": "老殁出品，sw分享", "parentid": "others" },
     { "name": "果核剥壳", "url": "https://www.ghpym.com/", "desc": "sw分享", "parentid": "others" },
 ]
