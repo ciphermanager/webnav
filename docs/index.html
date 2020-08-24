@@ -71,7 +71,7 @@
 
     function switchs(ele) {
         // 点击下拉菜单
-        console.log(ele.nextElementSibling.style.display);
+        //console.log(ele.nextElementSibling.style.display);
         if (ele.nextElementSibling.style.display == "none") {
             ele.nextElementSibling.style.display = "";
         } else {
@@ -82,7 +82,7 @@
     function wrap(classname) {
         // 面包板折叠展开
         var method = "left", size = 200, milliseconds = 10, i = 10, selector = classname;
-        console.log(document.querySelector(selector).style[method]);
+        //console.log(document.querySelector(selector).style[method]);
         if (Number(document.querySelector(selector).style[method].slice(0, -2)) == 0) {
             document.querySelector(selector).style[method] = "10px";
         }
