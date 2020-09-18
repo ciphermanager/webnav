@@ -28,6 +28,7 @@ var menus = {
 
 var datas = [
     { "name": "智慧校园", "url": "http://ehall.cqust.edu.cn/", "desc": "重庆科技学院用户常用", "parentid": "school" },
+    { "name": "重科教务", "url": "http://jwnew.cqust.edu.cn/", "desc": "ipv4，老版的", "parentid": "school" },
     { "name": "重庆科技学院", "url": "http://www.cqust.edu.cn/", "desc": "重庆科技学院官网", "parentid": "school" },
 
     { "name": "安心考研", "url": "http://axky.ys168.com/", "desc": "公共课", "parentid": "exam" },
