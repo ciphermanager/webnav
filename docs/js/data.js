@@ -16,7 +16,7 @@ var menus = {
         "school": "学校常用",
         "exam": "考试专区",
         "ebook": "电子书",
-        "DB": "数据库",
+        //"DB": "数据库",
         "course": "课程推荐",
     },
     "综合": {
@@ -52,9 +52,9 @@ var datas = [
     { "name": "微盘", "url": "https://vdisk.weibo.com/", "desc": "电子书免费下载与共享，新浪出品", "parentid": "ebook" },
     { "name": "语雀", "url": "https://www.yuque.com/explore/headlines", "desc": "多人写作，可知识分享，阿里出品", "parentid": "ebook" },
 
-    { "name": "畅想之星", "url": "http://cxstar.ntlib.org.cn/bookcd/index/index.do", "desc": "光盘数据库，速度尚可，免ip认证！", "parentid": "DB" },
-    { "name": "联图云光盘", "url": "http://discx.yuntu.io", "desc": "光盘数据库，免ip认证！", "parentid": "DB" },
-    { "name": "湖南省高校数字图书馆", "url": "http://www.hnadl.cn/", "desc": "光盘、课件、考试数据库，免ip认证", "parentid": "DB" },
+    //{ "name": "畅想之星", "url": "http://cxstar.ntlib.org.cn/bookcd/index/index.do", "desc": "光盘数据库，速度尚可，免ip认证！", "parentid": "DB" },
+    //{ "name": "联图云光盘", "url": "http://discx.yuntu.io", "desc": "光盘数据库，免ip认证！", "parentid": "DB" },
+    //{ "name": "湖南省高校数字图书馆", "url": "http://www.hnadl.cn/", "desc": "光盘、课件、考试数据库，免ip认证", "parentid": "DB" },
 
     { "name": "工程力学", "url": "https://next.xuetangx.com/course/NEU08011001314", "desc": "学堂在线,东北大学,李英梅", "parentid": "course" },
     { "name": "大学物理上", "url": "https://www.icourse163.org/course/bjut-1205903801", "desc": "中国大学MOOC,北工大,杨红卫", "parentid": "course" },
