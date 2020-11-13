@@ -34,7 +34,7 @@ var datas = [
     { "name": "安心考研", "url": "http://axky.ys168.com/", "desc": "公共课", "parentid": "exam" },
     { "name": "油麦同学的藏宝阁", "url": "http://cangbaoge.ys168.com/", "desc": "公共课+专业课", "parentid": "exam" },
     { "name": "维普考试镜像", "url": "http://sjk06.e-library.com.cn/UI/index.aspx", "desc": "试卷题库，暂免ip认证", "parentid": "exam" },
-    { "name": "起点考研网", "url": "https://www.yjsexam.com/", "desc": "需注册，只有视频", "parentid": "exam" },
+    //{ "name": "起点考研网", "url": "https://www.yjsexam.com/", "desc": "需注册，只有视频", "parentid": "exam" },失效
     { "name": "维普考试", "url": "http://vers.cqvip.com/", "desc": "试卷题库，需ip认证", "parentid": "exam" },
     { "name": "维普考研", "url": "http://kaoyan.cqvip.com/", "desc": "试卷题库，需ip认证", "parentid": "exam" },
 
