@@ -51,11 +51,12 @@ var datas = [
     { "name": "OSGeo中国", "url": "https://www.osgeo.cn/", "desc": "python 、GIS中文文档", "parentid": "ebook" },
     { "name": "书栈网", "url": "https://www.bookstack.cn/", "desc": "计算机类开源书籍下载与在线阅读", "parentid": "ebook" },
     
+    { "name": "k档", "url": "http://archive.keyllo.com/", "desc": "计算机类书籍", "parentid": "ebook" },
     { "name": "gnetna", "url": "http://gnetna.com/books/", "desc": "计算机类书籍", "parentid": "ebook" },
     //{ "name": "51CTO下载中心", "url": "https://down.51cto.com/", "desc": "计算机类书籍免费下载与共享", "parentid": "ebook" },
     { "name": "微盘", "url": "https://vdisk.weibo.com/", "desc": "电子书免费下载与共享，新浪出品", "parentid": "ebook" },
     { "name": "语雀", "url": "https://www.yuque.com/explore/headlines", "desc": "多人写作，可知识分享，阿里出品", "parentid": "ebook" },
-http://118.122.142.36:8081/
+
     //{ "name": "畅想之星", "url": "http://cxstar.ntlib.org.cn/bookcd/index/index.do", "desc": "光盘数据库，速度尚可，免ip认证！", "parentid": "DB" },
     //{ "name": "联图云光盘", "url": "http://discx.yuntu.io", "desc": "光盘数据库，免ip认证！", "parentid": "DB" },
     //{ "name": "湖南省高校数字图书馆", "url": "http://www.hnadl.cn/", "desc": "光盘、课件、考试数据库，免ip认证", "parentid": "DB" },
