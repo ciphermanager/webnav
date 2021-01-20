@@ -79,7 +79,7 @@ var datas = [
 
     { "name": "国际在线", "url": "http://news.cri.cn/world", "desc": "国际新闻", "parentid": "news" },
     { "name": "Chinadaily", "url": "http://www.chinadaily.com.cn/", "desc": "中国日报英语版，有app", "parentid": "news" },
-    { "name": "CCTV13", "url": "https://tv.cctv.com/live/cctv13", "desc": "央视新闻", "parentid": "news" },
+    { "name": "CCTV13", "url": "https://tv.cctv.com/live/cctv13/", "desc": "央视新闻", "parentid": "news" },
 
     { "name": "阿虚同学的储物间", "url": "http://kyon945.ys168.com/", "desc": "阿虚的收藏", "parentid": "others" },
     { "name": "量子孤岛杂货店", "url": "http://quantumisland.ys168.com/", "desc": "公众号:量子孤岛", "parentid": "others" },
