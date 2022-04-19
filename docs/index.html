@@ -5,131 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>小众导航</title>
-    <script>
-        var _hmt = _hmt || [];
-        (function () {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?3cccf7227d9405886fa73c8a3f743a13";
-            hm.async = "async";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
     </script>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="//unpkg.com/element-plus/dist/index.css" />
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://unpkg.com/vue3-sfc-loader@0.8.4/dist/vue3-sfc-loader.js"></script>
+    <script src="//unpkg.com/element-plus"></script>
+    <script src="./datas.js"></script>
 </head>
 
 <body>
-    <div class="menus left">
+<div id="app">
+<el-container>
+<el-header style="text-align: center;">导航站</el-header>
+<el-main>
+    <navdetail></navdetail>
+</el-main>
+<el-footer style="text-align: center;">基于Vue+vue3-sfc-loader+ElementPlus</el-footer>
+</el-container>
+
     </div>
-    <div class="content right">
-        <div id="search">
-            <input type="text" id="words">
-            <select id="engine">
-                <option selected="selected" value="https://www.baidu.com/s?wd=">百度</option>
-                <option value="https://cn.bing.com/search?q=">必应</option>
-                <option value="https://www.so.com/s?q=">360搜索</option>
-                <option value="https://www.sogou.com/web?query=">搜狗</option>
-                <option value="https://www.google.com/search?q=">谷歌</option>
-            </select>
-            <a id="button" target="_blank"
-                onclick="this.href=document.getElementById('engine').value+document.getElementById('words').value">搜索</a>
-        </div>
-    </div>
-    <a class="tips" href="https://navigates.surge.sh/" target="_blank">新版</a>
-</body>
-<script src="js/data.js"></script>
-<script src="js/webDataParser.js"></script>
-<script>
-    function positionTo(selector, size, milliseconds, method, i) {
-        //通过选择器动态改变指定元素的尺寸位置等。
-        // selector:选择器，选取要移动的元素
-        // ,size要移动的位移量，增量
-        // ,milliseconds 每次增量间隔的时间
-        // method：style下的属性上下移动，左右移动
-        //i每次的变化量
-        var style = document.querySelector(selector).style;
-        var timer = 0, beginSize = Number(style[method].slice(0, -2));
-        var moveInterval = setInterval(
-            function () {
-                if (size < 0) {
-                    timer = timer - i;
-                }
-                else {
-                    timer = timer + i;
-                }
-                style[method] = timer + beginSize + "px";
-                if ((timer >= size && size >= 0) || (timer <= size && size < 0)) {
-                    clearInterval(moveInterval);
-                }
+    <script>
+        const options = {
+            moduleCache: {
+                vue: Vue,
+                // elementplus: ElementPlus,
+                datas:datas,
             },
-            milliseconds
-        );
-    }
-
-
-    function switchs(ele) {
-        // 点击下拉菜单
-        //console.log(ele.nextElementSibling.style.display);
-        if (ele.nextElementSibling.style.display == "none") {
-            ele.nextElementSibling.style.display = "";
-        } else {
-            ele.nextElementSibling.style.display = "none";
-        }
-    }
-
-    function wrap(classname) {
-        // 面包板折叠展开
-        var method = "left", size = 200, milliseconds = 10, i = 10, selector = classname;
-        //console.log(document.querySelector(selector).style[method]);
-        if (Number(document.querySelector(selector).style[method].slice(0, -2)) == 0) {
-            document.querySelector(selector).style[method] = "10px";
-        }
-
-        if (Number(document.querySelector(selector).style[method].slice(0, -2)) < 10) {
-
-            positionTo(selector, size, milliseconds, method, i);
-        } else {
-
-            positionTo(selector, -size, milliseconds, method, i);
-        }
-    }
-    var textele = document.getElementById("words");
-    // 搜索框回车键绑定
-    textele.onkeypress = function (event) {
-        if (event.which === 13) {
-            document.getElementById("button").click();
-        }
-    }
-
-    // 窗口适配
-    var eles = document.querySelectorAll(".ddiv");
-    if (document.body.offsetWidth <= 800) {
-        // 小窗口
-        for (var i = 0; i < eles.length; i++) {
-            eles[i].style.width = "100%";
-            eles[i].style.marginLeft="0px";
-            eles[i].style.marginRight="0px";
-        }
-        document.body.style.overflowX="hidden";
-        document.body.removeChild(document.querySelector(".menus"));
-        document.querySelector(".right").style.left = "0px";
-        document.querySelector(".right").style.margin = "0px";
-    }
-    window.onresize = function () {
-        // 窗口缩放事件
-        if (document.body.offsetWidth <= 800) {
-            for (var i = 0; i < eles.length; i++) {
-                eles[i].style.width = "100%";
-            }
-        } else {
-            for (var i = 0; i < eles.length; i++) {
-                eles[i].style.width = "300px";
+            getFile(url) {
+                return fetch(url).then(response => response.ok ? response.text() : Promise.reject(response));
+            },
+            addStyle(styleStr) {
+                const style = document.createElement('style');
+                style.textContent = styleStr;
+                const ref = document.head.getElementsByTagName('style')[0] || null;
+                document.head.insertBefore(style, ref);
+            },
+            log(type, ...args) {
+                console.log(type, ...args);
             }
         }
-    }
-</script>
 
+        const { loadModule, version } = window["vue3-sfc-loader"];
 
+        const app = Vue.createApp({
+            components: {
+
+                'navdetail': Vue.defineAsyncComponent(() => loadModule('./main.vue', options)),
+            },
+        });
+        app.use(ElementPlus)
+        app.mount('#app');
+
+    </script>    
+    
+
+    
+
+    
+
+    
+</bod>
 </html>
