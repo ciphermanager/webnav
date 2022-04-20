@@ -33,11 +33,11 @@ datas=[
 //{ "name": "联图云光盘", "url": "http://discx.yuntu.io", "desc": "光盘数据库，免ip认证！", "category": "数据库" },
 //{ "name": "湖南省高校数字图书馆", "url": "http://www.hnadl.cn/", "desc": "光盘、课件、考试数据库，免ip认证", "category": "数据库" },
 
-{ "name": "工程力学", "url": "https://next.xuetangx.com/course/NEU08011001314", "desc": "学堂在线,东北大学,李英梅", "category": "课程推荐" },
-{ "name": "大学物理上", "url": "https://www.icourse163.org/course/bjut-1205903801", "desc": "中国大学MOOC,北工大,杨红卫", "category": "课程推荐" },
-{ "name": "大学物理下", "url": "https://www.icourse163.org/course/bjut-1206559814", "desc": "中国大学MOOC,北工大,杨红卫", "category": "课程推荐" },
-{ "name": "液压传动", "url": "https://www.icourse163.org/course/HIT-1205915802", "desc": "中国大学MOOC,哈工大,姜继海", "category": "课程推荐" },
-{ "name": "数据结构", "url": "https://www.icourse163.org/course/ZJU-93001", "desc": "中国大学MOOC,浙大,陈越", "category": "课程推荐" },
+{ "name": "工程力学", "url": "https://next.xuetangx.com/course/NEU08011001314", "desc": "东北大学,李英梅", "category": "课程推荐" },
+{ "name": "大学物理上", "url": "https://www.icourse163.org/course/bjut-1205903801", "desc": "北工大,杨红卫", "category": "课程推荐" },
+{ "name": "大学物理下", "url": "https://www.icourse163.org/course/bjut-1206559814", "desc": "北工大,杨红卫", "category": "课程推荐" },
+{ "name": "液压传动", "url": "https://www.icourse163.org/course/HIT-1205915802", "desc": "哈工大,姜继海", "category": "课程推荐" },
+{ "name": "数据结构", "url": "https://www.icourse163.org/course/ZJU-93001", "desc": "浙大,陈越", "category": "课程推荐" },
 
 { "name": "Magazinelib", "url": "https://magazinelib.com/", "desc": "外刊浏览，支持pdf下载", "category": "实用工具" },
 { "name": "水滴英语", "url": "https://www.adreep.cn/", "desc": "英语作文素材", "category": "实用工具" },
