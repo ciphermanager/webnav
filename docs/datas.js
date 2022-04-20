@@ -1,17 +1,17 @@
 datas=[
-{ "name": "智慧校园", "url": "http://ehall.cqust.edu.cn/", "desc": "重庆科技学院用户常用", "category": "学校" },
+//{ "name": "智慧校园", "url": "http://ehall.cqust.edu.cn/", "desc": "重庆科技学院用户常用", "category": "学校" },
 { "name": "重科教务", "url": "http://jwnew.cqust.edu.cn/", "desc": "ipv4，老版的", "category": "学校"},
-{ "name": "重庆科技学院", "url": "http://www.cqust.edu.cn/", "desc": "重庆科技学院官网", "category": "学校" },
+//{ "name": "重庆科技学院", "url": "http://www.cqust.edu.cn/", "desc": "重庆科技学院官网", "category": "学校" },
 
 { "name": "安心考研", "url": "http://axky.ys168.com/", "desc": "公共课", "category": "考试" },
 { "name": "油麦同学的藏宝阁", "url": "http://cangbaoge.ys168.com/", "desc": "公共课+专业课", "category": "考试" },
-{ "name": "维普考试镜像", "url": "http://sjk06.e-library.com.cn/UI/index.aspx", "desc": "试卷题库，暂免ip认证","category": "考试" },
+//{ "name": "维普考试镜像", "url": "http://sjk06.e-library.com.cn/UI/index.aspx", "desc": "试卷题库，暂免ip认证","category": "考试" },
 
-{ "name": "维普考试", "url": "http://vers.cqvip.com/", "desc": "试卷题库，需ip认证", "category": "考试" },
+//{ "name": "维普考试", "url": "http://vers.cqvip.com/", "desc": "试卷题库，需ip认证", "category": "考试" },
 { "name": "维普考研", "url": "http://kaoyan.cqvip.com/", "desc": "试卷题库，需ip认证", "category": "考试" },
 
 
-{ "name": "时宜搜书", "url": "https://www.shiyisoushu.com/", "desc": "电子书搜索", "category": "电子书" },
+//{ "name": "时宜搜书", "url": "https://www.shiyisoushu.com/", "desc": "电子书搜索", "category": "电子书" },
 { "name": "熊猫搜书", "url": "https://ebook.huzerui.com", "desc": "电子书聚合搜索", "category": "电子书" },
 { "name": "鸠摩搜索", "url": "https://www.jiumodiary.com/", "desc": "电子书搜索", "category": "电子书" },
 { "name": "LoreFree", "url": "https://ebook2.lorefree.com/", "desc": "去中心化免费电子书分享社区", "category": "电子书" },
@@ -26,7 +26,7 @@ datas=[
 { "name": "k档", "url": "http://archive.keyllo.com/", "desc": "计算机类书籍", "category": "电子书" },
 { "name": "gnetna", "url": "http://gnetna.com/books/", "desc": "计算机类书籍", "category": "电子书" },
 //{ "name": "51CTO下载中心", "url": "https://down.51cto.com/", "desc": "计算机类书籍免费下载与共享", "category": "电子书" },
-{ "name": "微盘", "url": "https://vdisk.weibo.com/", "desc": "电子书免费下载与共享，新浪出品", "category": "电子书" },
+//{ "name": "微盘", "url": "https://vdisk.weibo.com/", "desc": "电子书免费下载与共享，新浪出品", "category": "电子书" },
 { "name": "语雀", "url": "https://www.yuque.com/explore/headlines", "desc": "多人写作，可知识分享，阿里出品", "category": "电子书" },
 
 //{ "name": "畅想之星", "url": "http://cxstar.ntlib.org.cn/bookcd/index/index.do", "desc": "光盘数据库，速度尚可，免ip认证！", "category": "数据库" },
@@ -55,9 +55,9 @@ datas=[
 
 { "name": "阿虚同学的储物间", "url": "http://kyon945.ys168.com/", "desc": "阿虚的收藏", "category": "其它" },
 { "name": "量子孤岛杂货店", "url": "http://quantumisland.ys168.com/", "desc": "公众号:量子孤岛", "category": "其它" },
-{ "name": "Ashe", "url": "http://hsjp.ys168.com/", "desc": "公众号:胡说金朋", "category": "其它" },
+//{ "name": "Ashe", "url": "http://hsjp.ys168.com/", "desc": "公众号:胡说金朋", "category": "其它" },
 { "name": "影视森林", "url": "http://www.549.tv/", "desc": "影视导航", "category": "其它" },
-{ "name": "小柒影视导航", "url": "https://www.xiaoqiyouwu.ink/", "desc": "公众号：小柒有物，出品", "category": "其它" },
-{ "name": "老殁", "url": "http://www.laomo.me/", "desc": "老殁发布页", "category": "其它"},
-{ "name": "殁飘遥", "url": "https://www.mpyit.com/", "desc": "老殁出品，sw分享", "category": "其它" },
+//{ "name": "小柒影视导航", "url": "https://www.xiaoqiyouwu.ink/", "desc": "公众号：小柒有物，出品", "category": "其它" },
+//{ "name": "老殁", "url": "http://www.laomo.me/", "desc": "老殁发布页", "category": "其它"},
+{ "name": "殁飘遥", "url": "https://www.mpyit.com/", "desc": "sw分享", "category": "其它" },
 { "name": "果核剥壳", "url": "https://www.ghpym.com/", "desc": "sw分享", "category": "其它" }]
