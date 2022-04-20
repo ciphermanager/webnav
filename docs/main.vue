@@ -2,10 +2,10 @@
 <div>
 
   <el-table  :data="filterTableData" style="width: 100%">
-    <el-table-column prop="category" label="Category" column-key="category" :filters="filtercategory" :filter-method="filterHandler"   />
-    <el-table-column prop="name" label="Name"  />
-    <el-table-column prop="desc" label="Desc" />
-    <el-table-column sortable prop="status" label="速度ms" />
+    <el-table-column prop="category" label="分类" column-key="category" :filters="filtercategory" :filter-method="filterHandler"   />
+    <el-table-column prop="name" label="名称"  />
+    <el-table-column prop="desc" label="简介" />
+    <el-table-column sortable prop="status" label="访问速度ms" />
     <el-table-column align="right">
       <template #header>
         <el-input v-model="search" size="small" placeholder="搜索网站名称" />
